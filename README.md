@@ -29,8 +29,6 @@ This application is built using the recommended modern Android technology stack.
 | **Architecture** | **MVVM** (Model-View-ViewModel) and **Clean Architecture** |
 | **Concurrency** | **Kotlin Coroutines** & **Flow** |
 | **Networking** | **Retrofit** for API communication |
-| **Persistence** | *[e.g., Room Database / Firebase Firestore]* |
-| **Dependency Injection**| *[e.g., Hilt / Koin]* |
 | **Navigation** | Jetpack Navigation Component |
 
 ---
