@@ -1,77 +1,144 @@
-# 🚛 TruckEase: B2B Logistics & Product Management
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:141E30,100:243B55&height=200&section=header&text=TruckEase&fontSize=42&fontColor=ffffff&animation=fadeIn" />
+</p>
+
+<p align="center">
+  🚛 A Modern B2B Logistics & Product Management Android Application
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Kotlin-1.9-purple?logo=kotlin" />
+  <img src="https://img.shields.io/badge/Jetpack%20Compose-UI-blue?logo=android" />
+  <img src="https://img.shields.io/badge/Architecture-Clean%20%2B%20MVVM-success" />
+  <img src="https://img.shields.io/badge/Networking-Retrofit-orange" />
+  <img src="https://img.shields.io/badge/Coroutines-Enabled-brightgreen" />
+  <img src="https://img.shields.io/badge/Status-Completed-success" />
+</p>
+
+---
 
 ## ✨ Project Overview
 
-**TruckEase** is a modern B2B (Business-to-Business) Android application designed to streamline logistics and product management for small-to-medium enterprises.
+**TruckEase** is a modern **B2B (Business-to-Business)** Android application designed to streamline logistics and product management for small-to-medium enterprises.
 
-Built entirely with **Kotlin** and the latest **Jetpack Compose** toolkit, this app provides a fast, intuitive, and efficient platform for managing inventory, tracking shipments, and coordinating delivery operations. This project serves as a showcase of clean code architecture and modern Android development practices.
+Built entirely with **Kotlin** and **Jetpack Compose**, the app provides an intuitive platform for managing inventory, tracking shipments, and coordinating delivery operations.
+
+This project highlights **Clean Architecture principles** and modern Android development practices.
 
 ---
 
 ## 🚀 Key Features
 
-* **Real-Time Shipment Tracking:** Monitor the location and status of every delivery instantly via a dedicated tracking interface. 🗺️
-* **Intuitive Product Management:** Easily add, update, and categorize inventory with dedicated management screens.
-* **Driver & Route Coordination:** Assign shipments to drivers and optimize delivery routes for maximum logistical efficiency. 🧭
-* **Secure User Roles:** Robust user authentication and role-based access control (Admin, Manager, Driver). 🔒
-* **Analytics Dashboard:** View critical business metrics, delivery success rates, and inventory summaries.
+- 📦 Real-Time Shipment Tracking  
+- 📊 Inventory & Product Management  
+- 🧭 Driver & Route Coordination  
+- 🔐 Secure Role-Based Authentication (Admin / Manager / Driver)  
+- 📈 Analytics Dashboard for business insights  
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## 🏗️ System Architecture
 
-This application is built using the recommended modern Android technology stack.
+```
+TruckEase
+│
+├── 📦 data
+│   ├── api/
+│   ├── repository/
+│   └── models/
+│
+├── 📦 domain
+│   ├── usecases/
+│   └── entities/
+│
+├── 📦 presentation
+│   ├── ui/
+│   ├── screens/
+│   └── viewmodel/
+│
+└── MainActivity.kt
+```
 
-| Category | Technologies |
-| :--- | :--- |
-| **Language** | **Kotlin** (100% Codebase) |
-| **UI Framework** | **Jetpack Compose** (Declarative UI) |
-| **Architecture** | **MVVM** (Model-View-ViewModel) and **Clean Architecture** |
-| **Concurrency** | **Kotlin Coroutines** & **Flow** |
-| **Networking** | **Retrofit** for API communication |
-| **Navigation** | Jetpack Navigation Component |
+---
+
+## 🏛️ Architecture Pattern
+
+The app follows:
+
+- 🧠 **MVVM Architecture**
+- 🏗️ **Clean Architecture Layers**
+- 🔄 **Unidirectional Data Flow**
+
+This ensures:
+
+✔ Separation of concerns  
+✔ Scalable and modular code  
+✔ Easy testing & maintenance  
+
+---
+
+## ⚙️ Tech Stack
+
+| Category | Technology |
+|----------|------------|
+| 🟣 Language | Kotlin |
+| 🎨 UI Framework | Jetpack Compose |
+| 🏗️ Architecture | MVVM + Clean Architecture |
+| 🔄 Concurrency | Coroutines & Flow |
+| 🌐 Networking | Retrofit |
+| 🧭 Navigation | Jetpack Navigation Component |
 
 ---
 
 ## 💻 Getting Started
 
-Follow these steps to get a local copy of **TruckEase** running on your Android device or emulator.
-
 ### Prerequisites
 
-* **Android Studio** (Latest stable version, recommended for full Compose support)
-* **Android SDK 34** (or target API level 34)
+- Android Studio (Latest Stable Version)
+- Android SDK 34+
 
 ### Installation
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/abhishekm29jan/TruckEase.git](https://github.com/abhishekm29jan/TruckEase.git)
-    ```
-2.  **Open in Android Studio:**
-    * Open Android Studio and select **Open** an existing project.
-    * Navigate to the cloned `TruckEase` directory and open it.
-3.  **Sync and Run:**
-    * Allow Gradle to sync dependencies.
-    * Select your device/emulator and click the **Run** button (▶️).
+```bash
+git clone https://github.com/abhishekm29jan/TruckEase.git
+```
+
+1. Open in Android Studio  
+2. Sync Gradle  
+3. Run on Emulator or Physical Device  
+
+---
+
+## 📈 What This Project Demonstrates
+
+- Advanced Android Architecture  
+- API Integration using Retrofit  
+- State Management in Compose  
+- Modular Code Structure  
+- Scalable B2B Application Design  
 
 ---
 
 ## 🤝 Contribution
 
-Feel free to suggest improvements, report bugs, or submit pull requests. Any contributions are highly appreciated!
+Contributions are welcome!
 
-1.  Fork the Project.
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`).
-4.  Push to the Branch (`git push origin feature/AmazingFeature`).
-5.  Open a Pull Request.
+1. Fork the repository  
+2. Create a feature branch  
+3. Commit your changes  
+4. Open a Pull Request  
 
 ---
 
-## 👤 Author
+## 👨‍💻 Author
 
 **Abhishek Mishra**
 
-* [GitHub Profile](https://github.com/abhishekm29jan)
-* [LinkedIn Profile](https://www.linkedin.com/in/abhishek-mishra-38691219a/)
+- 🔗 [GitHub](https://github.com/abhishekm29jan)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/abhishek-mishra-38691219a/)  
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:243B55,100:141E30&height=120&section=footer"/>
+</p>
